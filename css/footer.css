@@ -1,0 +1,49 @@
+footer {
+  
+  padding: 80px 130px;
+}
+footer .wrap {
+  
+}
+footer .wrap>h3 {
+  font-size: 0;
+  width: 112px;
+  height: 56px;
+  display: block;
+  background-image: url(../img/Blogo.png);
+}
+footer .wrap .wrap{
+  
+  margin-left: 100px;
+  gap: 20px;
+}
+footer .wrap .wrap ul{
+  
+  gap: 30px;
+}
+footer .wrap .wrap ul li{
+  
+}
+footer .wrap .wrap ul li:hover{
+  font-weight: bold;
+}
+footer .wrap .wrap ul li a{
+  
+}
+footer .wrap .wrap p{
+  
+  color: #444;
+}
+footer .wrap span{
+  
+}
+footer .wrap span ul{
+  
+  gap: 20px;
+}
+footer .wrap span ul li{
+  
+}
+footer .wrap span ul li a{
+  
+}

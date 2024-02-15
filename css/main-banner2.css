@@ -1,0 +1,73 @@
+section#main-banner2 {
+  
+}
+section#main-banner2 .wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+section#main-banner2 .wrap #banner2 {
+  display: block;
+  animation-name: textup;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes textup{
+  0%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(100%);    
+  }
+}
+
+section#main-banner2 .wrap #banner2 hgroup {
+  
+}
+section#main-banner2 .wrap #banner2 hgroup h1 {
+  
+}
+section#main-banner2 .wrap #banner2 hgroup h2 {
+  padding-top: 20px;
+  padding-bottom: 150px;
+}
+section#main-banner2 .wrap #banner2>a {
+  text-transform: capitalize;
+  background-image: url(../img/arrow_b.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  padding-right: 30px;
+}
+section#main-banner2 .wrap span{
+  transform: translateX(280px);
+  animation-name: slideL;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes slideL{
+  0%{
+    opacity: 1;
+    transform: translateX();
+  }
+  100%{
+    opacity: 0;
+    transform: translateX(0%);
+  }
+}
+section#main-banner2 .wrap span a{
+  font-size: 0;
+  background-image: url(../img/m-banner2.jpg);
+  width: 671px;
+  height: 894px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}

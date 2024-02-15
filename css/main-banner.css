@@ -1,0 +1,75 @@
+section#main-banner {
+  
+}
+section#main-banner .wrap {
+  display: flex;
+  align-items: center;
+}
+section#main-banner .wrap #banner {
+  display: block;
+  animation-name: textup;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+  
+  animation-fill-mode: forwards;
+}
+
+@keyframes textup{
+  0%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(100%);    
+  }
+  
+}
+
+section#main-banner .wrap #banner hgroup {
+  
+}
+section#main-banner .wrap #banner hgroup h1 {
+  
+}
+section#main-banner .wrap #banner hgroup h2 {
+  padding-top: 20px;
+  padding-bottom: 150px;
+}
+section#main-banner .wrap #banner>a {
+  text-transform: capitalize;
+  background-image: url(../img/arrow_b.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  padding-right: 30px;
+}
+section#main-banner .wrap span{
+  
+}
+section#main-banner .wrap span a{
+  font-size: 0;
+  background-image: url(../img/m-banner1.jpg);
+  width: 1227px;
+  height: 780px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  animation-name: slideR;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideR{
+  0%{
+    opacity: 1;
+    transform: translateX(100%);
+  }
+  100%{
+    opacity: 0;
+    transform: translateX(0%);
+  }
+}

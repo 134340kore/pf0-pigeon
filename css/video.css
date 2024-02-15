@@ -1,0 +1,26 @@
+section#video {
+}
+section#video .wrap {
+  background-image: url(../img/video2.jpg);
+  width: 1890px;
+  height: 819px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section#video .wrap:not(:first-child).wrap {
+  display: none;
+}
+
+section#video .wrap >.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+section#video .wrap >.wrap h3 {
+  line-height: 2.6;
+}
+section#video .wrap >.wrap p {
+  
+}
